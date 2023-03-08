@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h3>Contacts</h3>
+    <!--usar <ul> antes de começar uma enumeração para tudo ficar organizado e dentro da tag, não é preciso por o <p> antes de cada alinea-->
+    <ul> <li>martacfmachado90@gmail.com</li>
+         <li>+351 913 332 581</li>
+    <!--para por links, copiar a ligação, escrever <a href="..." e escrever a palavra que queiramos que seja a ligação antes de </a>-->
+         <li> <a href="https://linkedin.com/in/martacfm/">My Linkedin</a> </li>
+    </ul>
+    <hr size="2" color="D5A5F9">
+    <!--não dá mas está tudo correto-->
+    <form action="mailto:martacfmachado90@gmail.com" method="post" enctype="plain/text"> 
+        <table>
+            <tr>
+              <td>
+                    <label>Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="name" value="">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <label">Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" value="">
+                </td>
+                <tr><td>
+                    <label>Message:</label>
+                </td>
+                <td>
+                    <textarea name="message" rows="7" cols="30"></textarea>
+                </td>
+                </tr>
+                </tr>
+                <tr>
+              <td>
+                    <input type="button" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
